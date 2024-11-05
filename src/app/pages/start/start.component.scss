@@ -1,0 +1,24 @@
+article{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "signals behavior"
+  "multiplier multiplier";
+  justify-items: center;
+
+  section {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+}
+
+.signals{
+  grid-area: signals;
+}
+.behavior{
+  grid-area: behavior;
+}
+.multiplier{
+  grid-area: multiplier;
+  margin-top: 1rem;
+}
